@@ -11,4 +11,36 @@ public class emprestimo {
     private pessoa pessoa;
     private List<ExemplarEmprestimo> exemplaresEmprestimo;
 
+    
+    public int getEmprestimoId() {
+        return emprestimoId;
+    }
+    public void setEmprestimoId(int emprestimoId) {
+        this.emprestimoId = emprestimoId;
+    }
+    public Date getDataEmprestimo() {
+        return dataEmprestimo;
+    }
+    public void setDataEmprestimo(Date dataEmprestimo) {
+        this.dataEmprestimo = dataEmprestimo;
+    }
+    public Date getDataPrevDev() {
+        return dataPrevDev;
+    }
+    public void setDataPrevDev(Date dataPrevDev) {
+        this.dataPrevDev = dataPrevDev;
+    }
+    public pessoa getPessoa() {
+        return pessoa;
+    }
+    public void setPessoa(pessoa pessoa) {
+        this.pessoa = pessoa;
+    }
+    public List<ExemplarEmprestimo> getExemplaresEmprestimo() {
+        return exemplaresEmprestimo;
+    }
+    public void setExemplaresEmprestimo(List<ExemplarEmprestimo> exemplaresEmprestimo) {
+        this.exemplaresEmprestimo = exemplaresEmprestimo;
+    }
+
 }

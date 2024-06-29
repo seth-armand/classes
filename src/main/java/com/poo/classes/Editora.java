@@ -1,16 +1,16 @@
 package com.poo.classes;
 
-public class Autor {   
-    
-    private int autorId;
+public class Editora {
+
+    private int editoraId;
     private String nome;
-    public int getAutorId()
+
     
-     {
-        return autorId;
+    public int getEditoraId() {
+        return editoraId;
     }
-    public void setAutorId(int autorId) {
-        this.autorId = autorId;
+    public void setEditoraId(int editoraId) {
+        this.editoraId = editoraId;
     }
     public String getNome() {
         return nome;
